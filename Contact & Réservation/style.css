@@ -262,20 +262,20 @@ nav .imgl::after{
     background: url('maison\ \(1\).png') no-repeat center center;
     background-size: 27px 27px; /*taille de l'image*/
     height: 27px; /*ajuster pour la taille de l'image*/
-    margin:0 9% 0 12%; 
+    margin:0 12% 0 12%; 
 } 
 .bio{
     background: url('utilisateur.png') no-repeat center center;
     background-size: 27px 27px;
     height: 27px;
-    margin:0 7% 0 0;
+    margin:0 12% 0 0;
 }
   
 .tarif{
     background:url('piece-de-monnaie.png') no-repeat center center;
     background-size: 27px 27px;
     height:27px;
-    margin: 0 5% 0 0;
+    margin: 0 10% 0 0;
 }
 
 .CandR{
