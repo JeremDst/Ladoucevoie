@@ -190,7 +190,7 @@ nav .imgl::after{
     .image{
         float:left;
         position: static;
-        width: 335px;
+        width: 80%;
         height: 350px;
         border-radius:  40% 40% ;
     }
