@@ -127,6 +127,7 @@ h5{
 }
 
 marquee{
+    top:0;
     position:fixed;
     color: #dc73f6;
     font-size: 25px;
