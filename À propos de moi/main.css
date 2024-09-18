@@ -75,3 +75,13 @@ h5{
     width: 50px;
 
 }
+
+.pinb{
+    justify-content:center;
+    align-items: center;
+    height: 35px;
+    width: 35px;
+    object-fit: cover;
+    margin-right: 0;
+    margin-left: 0;
+}
