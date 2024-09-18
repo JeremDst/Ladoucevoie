@@ -61,67 +61,53 @@ nav .imgl::after{
 }
 
 
-
 @media screen and (max-width:900px){
    nav{
-    background-color: bisque;
-    text-align:space-between;
-    margin-left: 0px;
-    margin-right:0px;
-    padding-top: 5px;
-    bottom:0px;
-    height: 50px;
-    width: 100%;
-    border-radius: 0px;
-    z-index: 1000;
-    position: fixed;
-    opacity: 100%;  
+        background-color: bisque;
+        justify-content:space-between;
+        margin-left: 0px;
+        margin-right:0px;
+        bottom:0px;
+        height: 50px;
+        width: 100%;
+        border-radius: 0px;
+        z-index: 1000;
+        position: fixed;
+        opacity: 100%;  
     } 
 
-    
-    
-    .imgl{
-        text-indent: -9999px;
-    }
-    .home {   
-        background: url('maison\ \(1\).png') no-repeat center center;
-        background-size: 35px 35px; /*taille de l'image*/
-        height: 35px; /*ajuster pour la taille de l'image*/
-       
-    }
-    .bio{
-        background: url('utilisateur.png') no-repeat center center;
-        background-size: 35px 35px;
-        height: 35px;
-       
-    }
-      
-    .tarif{
-        background:url('piece-de-monnaie.png') no-repeat center center;
-        background-size: 35px 35px;
-        height:35px;
-    }
-
-    .CandR{
-        background: url('contactez-nous.png') no-repeat center center;
-        background-size:35px 35px;
-        height:35px; 
-    }
     nav li a{
-        
         color: transparent;
-        
-        
     }
     
     nav li:hover a {
         color:transparent;
     }
 
-    nav li{
-      
-        padding: 25px 0 0 0;
-        margin-right: 5%
+    .nav1 .lilg::after{
+        background-color: transparent;
+    }
+
+    nav li{ 
+        margin-right:13%;
+        padding-top: 5px;
+    }
+
+    .nav1{
+        background-color: bisque;
+        width: 100%;
+        height: 40px;
+        text-align: center;
+        top:-20px;
+        display:inline-block;  
+    } 
+
+    .pnb{
+        display: none;
+    }
+   
+    .imgl{
+        text-indent: -9999px;
     }
     
     img{
@@ -144,59 +130,39 @@ nav .imgl::after{
         position: center;
     }
    
-    .nav1{
-        background-color: bisque;
-        width: 100%;
-        height: 40px;
-        text-align: center;
-        top:-20px;
-        display:inline-block;
-        
-       } 
-
-       .lilg{
+    .lilg{
         padding-top: 0px;
         color: #8a2be2;
         font-weight:bold ;
-       }
-       .nav1 .lilg::after{
-        background-color: transparent;
-       }
+    }
+       
 
-       .div{
-        margin-top:12vh;
-        
-        
-       }
+    .div{
+        margin-top:12vh;  
+    }
 
-       h1{
+    h1{
         margin-left: 20%;
         margin-right: 20%;
-       }
+    }
 
-       iframe{
-        
-        
+    iframe{
         width: 100%;
         height: 500px;
         margin-right: -8%;
         margin-top: 50px;
-
-       }
-       
-       
-       .div2{
+    }
         
+    .div2{
         margin-left: 8%;
         margin-right: 8%;
-       }
+    }
 
-        h1{
-            margin-bottom: 10px;
-            margin-top: 60px;
-        }
+    h1{
+        margin-bottom: 10px;
+        margin-top: 60px;
+    }
 
-        
     .div1 {
         display: none;
     }
@@ -205,9 +171,7 @@ nav .imgl::after{
         display: none;
     }
     
-    
    .div6{
-    
         margin-left: 15%;
         margin-right: 15%;
         margin-bottom: 10px;
@@ -215,11 +179,8 @@ nav .imgl::after{
     }
 
     footer{
-        
         margin-top:15px;
     }
-   
-    
 
 }
 
@@ -232,15 +193,16 @@ nav .imgl::after{
         text-align: center;
         top:0;
         display:none;
-       } 
+    } 
 
-     nav{
+    nav{
          top:0;
-        }
+    }
 
     .div5 {
-            display: none;
-        }
+        display: none;
+    }
+
     .div6{
         display: none;
     }
@@ -248,59 +210,29 @@ nav .imgl::after{
     iframe{
         position:absolute;
     }
+
+    .pinb{
+        display: none;
+    }
 }
 
 @media screen and (max-width:450px) {
 
-    
-
- nav{
-    text-align: left;
-    height: 45px;
- }
- .home {   
-    background: url('maison\ \(1\).png') no-repeat center center;
-    background-size: 27px 27px; /*taille de l'image*/
-    height: 27px; /*ajuster pour la taille de l'image*/
-    margin:0 12% 0 12%; 
-} 
-.bio{
-    background: url('utilisateur.png') no-repeat center center;
-    background-size: 27px 27px;
-    height: 27px;
-    margin:0 12% 0 0;
-}
-  
-.tarif{
-    background:url('piece-de-monnaie.png') no-repeat center center;
-    background-size: 27px 27px;
-    height:27px;
-    margin: 0 10% 0 0;
-}
-
-.CandR{
-    background: url('contactez-nous.png') no-repeat center center;
-    background-size:27px 27px;
-    height:27px;
-}
-    
-nav li a{
-    font-size: 3%;
-}
-
-nav li{
-    margin-right:0;
-    padding-top: 5px;
-}
+    nav{
+        height: 45px;
+    }
+ 
+    .pinb{
+     height: 29px;
+     width: 29px;
+    }
+        
+    nav li{
+        margin-right: 10.8% ;
+        padding-top: 5px;
+    }
 
 }
-
-
-
-
-
-
-
 
 iframe{
     
