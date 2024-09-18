@@ -17,13 +17,13 @@ nav {
     border-radius: 50px 50px;
     z-index: 1000;
     position: fixed;
-    opacity: 80%;
+    opacity: 100%;
 }
 
 
 nav  li    {
     display: inline-block;
-    margin-right: 100px;
+    margin-right: 50px;
     position: relative; /* Ajoutez une position relative pour les catégories */
 }
 
@@ -61,14 +61,12 @@ nav .imgl::after{
 }
 
 
-
 @media screen and (max-width:900px){
-    nav{
+   nav{
         background-color: bisque;
-        text-align:space-between;
+        justify-content:space-between;
         margin-left: 0px;
         margin-right:0px;
-        padding-top: 5px;
         bottom:0px;
         height: 50px;
         width: 100%;
@@ -76,53 +74,41 @@ nav .imgl::after{
         z-index: 1000;
         position: fixed;
         opacity: 100%;  
-        } 
+    } 
+
+    nav li a{
+        color: transparent;
+    }
     
-        
-        
-        .imgl{
-            text-indent: -9999px;
-        }
-        .home {   
-            background: url('maison\ \(1\).png') no-repeat center center;
-            background-size: 35px 35px; /*taille de l'image*/
-            height: 35px; /*ajuster pour la taille de l'image*/
-           
-        }
-        .bio{
-            background: url('utilisateur.png') no-repeat center center;
-            background-size: 35px 35px;
-            height: 35px;
-           
-        }
-          
-        .tarif{
-            background:url('piece-de-monnaie.png') no-repeat center center;
-            background-size: 35px 35px;
-            height:35px;
-        }
-    
-        .CandR{
-            background: url('contactez-nous.png') no-repeat center center;
-            background-size:35px 35px;
-            height:35px; 
-        }
-        nav li a{
-            
-            color: transparent;
-            
-            
-        }
-        
-        nav li:hover a {
-            color:transparent;
-        }
-    
-        nav li{
-          
-            padding: 25px 0 0 0;
-            margin-right: 5%
-        }
+    nav li:hover a {
+        color:transparent;
+    }
+
+    .nav1 .lilg::after{
+        background-color: transparent;
+    }
+
+    nav li{ 
+        margin-right:13%;
+        padding-top: 5px;
+    }
+
+    .nav1{
+        background-color: bisque;
+        width: 100%;
+        height: 40px;
+        text-align: center;
+        top:-20px;
+        display:inline-block;  
+    } 
+
+    .pnb{
+        display: none;
+    }
+   
+    .imgl{
+        text-indent: -9999px;
+    }
     
     img{
         width: 0;
@@ -130,11 +116,11 @@ nav .imgl::after{
     }
 
     footer{
-        margin-bottom: 50px;
+        margin-bottom:50px;
     }
-
-    .a1{
-        font-size: 11px;
+    .li2{
+        display: inline-block;
+        margin-left:60%;
     }
 
     .lg{
@@ -144,41 +130,57 @@ nav .imgl::after{
         position: center;
     }
    
-    .nav1{
-        background-color: bisque;
-        width: 100%;
-        height: 40px;
-        text-align: center;
-        top:-15px;
-        display:inline-block;
-        
-       } 
-
-       .lilg{
+    .lilg{
         padding-top: 0px;
         color: #8a2be2;
         font-weight:bold ;
-       }
-       .nav1 .lilg::after{
-        background-color: transparent;
-       }
-
-       .li1{
-        margin-top: 30px;
-        display: block;
-        margin-left: 50%;
-        margin-bottom:80px;
-    }
-
-    .p{
-        font-size: 11px;
     }
        
-    .p1{
-        line-height: 3;
+
+    .div{
+        margin-top:12vh;  
+    }
+
+    h1{
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    iframe{
+        width: 100%;
+        height: 500px;
+        margin-right: -8%;
+        margin-top: 50px;
+    }
+        
+    .div2{
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+
+    h1{
+        margin-bottom: 10px;
+        margin-top: 60px;
+    }
+
+    .div1 {
+        display: none;
+    }
+
+    .div4{
+        display: none;
     }
     
-   
+   .div6{
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-bottom: 10px;
+        padding: 15px 15px 15px 15px;
+    }
+
+    footer{
+        margin-top:15px;
+    }
 
 }
 
@@ -191,147 +193,55 @@ nav .imgl::after{
         text-align: center;
         top:0;
         display:none;
-       } 
-    
-}
-@media screen and (max-width:450px) {
-
-    
+    } 
 
     nav{
-       text-align: left;
-       height: 45px;
+         top:0;
     }
-    .home {   
-       background: url('maison\ \(1\).png') no-repeat center center;
-       background-size: 27px 27px; /*taille de l'image*/
-       height: 27px; /*ajuster pour la taille de l'image*/
-       margin:0 12% 0 12%; 
-   } 
-   .bio{
-       background: url('utilisateur.png') no-repeat center center;
-       background-size: 27px 27px;
-       height: 27px;
-       margin:0 12% 0 0;
-   }
-     
-   .tarif{
-       background:url('piece-de-monnaie.png') no-repeat center center;
-       background-size: 27px 27px;
-       height:27px;
-       margin: 0 10% 0 0;
-   }
-   
-   .CandR{
-       background: url('contactez-nous.png') no-repeat center center;
-       background-size:27px 27px;
-       height:27px;
-   }
-       
-   nav li a{
-       font-size: 3%;
-   }
-   
-   nav li{
-       margin-right:0;
-       padding-top: 5px;
-   }
-   
-   }
+
+    .div5 {
+        display: none;
+    }
+
+    .div6{
+        display: none;
+    }
+
+    iframe{
+        position:absolute;
+    }
+
+    .pinb{
+        display: none;
+    }
+}
+
+@media screen and (max-width:450px) {
+
+    nav{
+        height: 45px;
+    }
+ 
+    .pinb{
+     height: 29px;
+     width: 29px;
+    }
+        
+    nav li{
+        margin-right: 10.8% ;
+        padding-top: 5px;
+    }
+
+}
+
+iframe{
     
-   
     
-
-
-
-
-
-
-.tab{
-    width: 100%;
-    position: relative;
-    border-top: 1px solid black;
-    box-shadow:0px 0px 5px black;
-    
+    margin-top: 50px;
+    right: 8%;
+    padding: 3% 3% 3% 3%;
+    background-color: white;
+    border-radius:50px 50px 50px 50px;
 }
 
-.tab input{
-    position: relative;
-    opacity: 0;
-    z-index: -1;
-}
-
-.tab .tab-content{
-    max-height: 0;
-    overflow: hidden;
-    transition:  all 0.5s ease-in;/*transition de  la case*/
-}
-
-.tab input:checked ~ .tab-content{
-    max-height: 100%;
-}
-
-.section-header{
-    width:100%;/*grandeur de déontologie*/
-}
-
-.accordion{
-    width: min(80%,700px);
-    min-height: 50vh;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-    padding: 2rem;
-    border: none;
-    border-radius: 1rem;
-    background-color:white ;
-}
-
-.tab-wrapper{
-    width: 100%;
-    height:100%;
-    padding: 0.5rem 0.75rem;/*écartement interieur*/
-    border: none;
-    border-radius: 0.5rem 0.5rem 0 0;/* style des bordure*/
-    transition: background-color 0.25s ease-in;/* style de la transition*/
-}
-
-
-.tab-wrapper:hover{
-    background-color: white;/*couleur survol*/
-}
-
-
-.tab-label{
-    width: 100%;
-    padding: 1rem 0;
-    display: flex;
-    align-items: center;/*alignement du texte*/
-    justify-content: space-between;/*style d'espacement*/
-    cursor: pointer;/* sourris deviens pointer*/
-    font-size: 1.25rem;
-}
-
-.tab-label::after{
-    content:"\276F";/*sympbole de la fleche*/
-    width: 1rem;
-    text-align: center;/*centrage de la flèche*/
-    transform: rotate(90deg);/*rotation normal de la flèche*/
-    transition: all 0.5s;/*temp de rotation*/
-}
-
-.tab input:checked+ .tab-label::after{
-    transform: rotate(270deg);/*rotation de la flèche*/
-}
-
-
-.li1{
-    
-    margin-top: 30px;
-    display: inline-block;
-    margin-left: 23%;
-    gap: 3%;
-    margin-bottom: 80px;
-}
 
