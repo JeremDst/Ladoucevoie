@@ -91,3 +91,13 @@ marquee{
     height: 35px;
     background-color: white;
 }
+
+.pinb{
+    justify-content:center;
+    align-items: center;
+    height: 35px;
+    width: 35px;
+    object-fit: cover;
+    padding: 0;
+
+}
