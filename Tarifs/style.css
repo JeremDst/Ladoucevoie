@@ -166,16 +166,16 @@ nav .imgl::after{
     
     .image{
         float:left;
-        position: static;
-        width: 350px;
-        height: 350px;
+        position: relative;
+        width: 100%;
+        height: 100%;
         border-radius:  40% 40% ;
     }
 
     .div1{ 
         border: 1px grey solid;
         margin-top: 30px;
-        border-radius: 140px 140px 10px 10px ;
+        border-radius:  9rem 9rem 3rem 3rem ;
         margin-left:10%;
         margin-right: 10%;
         background-color: #ffffff;
@@ -185,7 +185,7 @@ nav .imgl::after{
      .div2{
         border: 1px grey solid;
         margin-top: 115px;
-        border-radius: 140px 140px 10px 10px ;
+        border-radius: 9rem 9rem 3rem 3rem;
         margin-left:10%;
         margin-right: 10%;
         background-color: #ffffff;
@@ -215,6 +215,15 @@ nav .imgl::after{
     .pinb{
         display: none;
     }
+    
+    .image{
+    float:left;
+    position: relative;
+    width:22rem;
+    height:22rem;
+    border-radius: 40% 40%;
+    padding-top: 0px;
+}
 }
 
 @media screen and (max-width:450px) {
@@ -233,7 +242,7 @@ nav .imgl::after{
     }
        
    .image{
-        width: 250px;
+       float:none;
    }
    
 }
@@ -254,12 +263,17 @@ nav .imgl::after{
 
 }
 
+@keyframes gradientScroll{
+    0%{
+        background-position: 0% 50%;
+    }
 
-.image{
-    float:left;
-    position: static;
-    width:44.5vh;
-    height:44.5vh;
-    border-radius: 40% 40%;
+    50%{
+        background-position: 100% 50%;
+    }
+
+    100%{
+        background-position:0% 50%;
+    }
 }
 

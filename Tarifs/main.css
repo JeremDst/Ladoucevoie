@@ -1,5 +1,7 @@
 body{
-    background:linear-gradient(#0abab5,#0abab5,#dc73f6,#dc73f6);
+    background:linear-gradient(260deg,#0abab5,#0abab5,#dc73f6,#dc73f6);
+    animation: gradientScroll 8s ease infinite;
+    background-size: 400% 400%;
 }
 
 img{
@@ -11,7 +13,7 @@ img{
 .div1{ 
     border: 1px grey solid;
     margin-top: 30px;
-    border-radius: 140px 10px 10px 140px;
+    border-radius: 9rem 3rem 3rem 9rem;
     margin-left:10%;
     margin-right: 10%;
     background-color: #ffffff;
@@ -40,8 +42,8 @@ h1{
 
 .div2{
     border: 1px grey solid;
-    margin-top: 115px;
-    border-radius: 140px 10px 10px 140px;
+    margin-top: 130px;
+    border-radius:9rem 3rem 3rem 9rem;
     margin-left:10%;
     margin-right: 10%;
     background-color: #ffffff;
@@ -90,6 +92,7 @@ marquee{
     font-size: 25px;
     height: 35px;
     background-color: white;
+    z-index:1000;
 }
 
 .pinb{
